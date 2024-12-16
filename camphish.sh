@@ -7,20 +7,14 @@ trap 'printf "\n";stop' 2
 
 banner() {
 clear
-printf "\e[1;92m  _______  _______  _______  \e[0m\e[1;77m_______          _________ _______          \e[0m\n"
-printf "\e[1;92m (  ____ \(  ___  )(       )\e[0m\e[1;77m(  ____ )|\     /|\__   __/(  ____ \|\     /|\e[0m\n"
-printf "\e[1;92m | (    \/| (   ) || () () |\e[0m\e[1;77m| (    )|| )   ( |   ) (   | (    \/| )   ( |\e[0m\n"
-printf "\e[1;92m | |      | (___) || || || |\e[0m\e[1;77m| (____)|| (___) |   | |   | (_____ | (___) |\e[0m\n"
-printf "\e[1;92m | |      |  ___  || |(_)| |\e[0m\e[1;77m|  _____)|  ___  |   | |   (_____  )|  ___  |\e[0m\n"
-printf "\e[1;92m | |      | (   ) || |   | |\e[0m\e[1;77m| (      | (   ) |   | |         ) || (   ) |\e[0m\n"
-printf "\e[1;92m | (____/\| )   ( || )   ( |\e[0m\e[1;77m| )      | )   ( |___) (___/\____) || )   ( |\e[0m\n"
-printf "\e[1;92m (_______/|/     \||/     \|\e[0m\e[1;77m|/       |/     \|\_______/\_______)|/     \|\e[0m\n"
-printf " \e[1;93m CamPhish Ver 1.7 \e[0m \n"
-printf " \e[1;77m www.techchip.net | youtube.com/techchipnet \e[0m \n"
-
 printf "\n"
-
-
+printf "  ___ _           _      \n"
+printf " / __| |         | |     \n"
+printf "| (_ | |_   _ | | __ \n"
+printf " \_ \| '_ \ / _\` | |/ _ \\\n"
+printf " _) | | | | (| | |  __/\n"
+printf "|__/|| ||\,||\__|\n"
+printf "\n"
 }
 
 dependencies() {
